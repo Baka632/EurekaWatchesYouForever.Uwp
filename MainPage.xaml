@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="EurekaWatchesYouForever.Uwp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:EurekaWatchesYouForever.Uwp"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loaded="OnPageLoaded"
+    mc:Ignorable="d">
+
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="TextAlignment" Value="Center" />
+            </Style>
+        </StackPanel.Resources>
+
+        <TextBlock
+            FontSize="35"
+            FontWeight="SemiBold"
+            Text="别忘了" />
+        <TextBlock
+            Margin="0,10,0,0"
+            FontSize="25"
+            FontWeight="Medium"
+            Text="尤里卡一直在看着你" />
+        <TextBlock
+            FontSize="25"
+            FontWeight="Medium"
+            Text="不会离开。" />
+    </StackPanel>
+</Page>
